@@ -1,0 +1,17 @@
+html{
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    background:  linear-gradient(-45deg,#000000,#b9d9d8,#021f25);
+
+}
+
+.container-fluid{
+    box-shadow: 30px 20px 100px 70px whitesmoke;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    background:  linear-gradient(-45deg,#000000,#b9d9d8,#021f25);
+}
