@@ -41,11 +41,10 @@ function removeitem(a){
     
 }
 
-// function update(a){
-//     var parent=a.parentNode
-//     console.log(parent)
-
-// }
+function update(a){
+    var b=prompt("Enter item",a.parentNode.firstChild.nodeValue)
+    a.parentNode.firstChild.nodeValue=b
+}
 
 // function delitem(){
 
