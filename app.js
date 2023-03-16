@@ -21,7 +21,7 @@ function addlist() {
     var deltxt = document.createTextNode("Remove")
     delbtn.appendChild(deltxt)
     li.appendChild(delbtn)
-    delbtn.setAttribute("class", "btn btn-danger")
+    delbtn.setAttribute("class", "btn btn-danger fltrt")
     delbtn.setAttribute("onclick", "removeitem(this)")
 
 
@@ -30,7 +30,7 @@ function addlist() {
     var updtext = document.createTextNode("change")
     updbtn.appendChild(updtext)
     li.appendChild(updbtn)
-    updbtn.setAttribute("class", "btn btn-warning")
+    updbtn.setAttribute("class", "btn btn-warning fltrt")
     updbtn.setAttribute("onclick", "update(this)")
 
 
@@ -46,6 +46,6 @@ function update(a){
     a.parentNode.firstChild.nodeValue=b
 }
 
-// function delitem(){
-
-// }
+function delitem(){
+    list.innerHTML="  "
+}
